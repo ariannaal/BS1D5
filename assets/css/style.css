@@ -36,6 +36,18 @@ footer .text-secondary {
   font-size: 0.8rem;
 }
 
+.copertina:hover {
+  animation: play 1s ease;
+}
+
+@keyframes play {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.2);
+  }
+}
 .main-pa .avatar-pa {
   display: block;
   position: relative;
