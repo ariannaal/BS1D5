@@ -115,6 +115,10 @@ footer .text-secondary {
   transform: rotate(45deg);
 }
 
+.main-st .btn-light {
+  box-shadow: 3px 3px 8px gray;
+}
+
 @media (max-width: 991px) {
   .main-pa .d-flex {
     flex-direction: column;
