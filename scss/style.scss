@@ -1,7 +1,22 @@
+
 .navbar {
 
     #search-icon,
     #notification {
         cursor: pointer;
     }
+}
+
+.section-tvshows {
+    #menu-bars,
+        #menu-dots {
+        cursor: pointer;
+        height: 1.2rem;
+        }
+}
+
+main {
+    .img-fluid {
+            cursor: pointer;
+        }
 }
