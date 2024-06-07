@@ -12,13 +12,13 @@
     />
     <link rel="stylesheet" href="/assets/dist/css/style.min.css" />
   </head>
-  <body>
+  <body class="bg-dark" data-bs-theme="dark">
     <!--navbar-->
     <nav
       class="navbar navbar-expand-lg bg-dark border-body"
       data-bs-theme="dark"
     >
-      <div class="container-fluid mx-2">
+      <div class="container-fluid mx-1">
         <img
           src="/assets/media/netflix_logo.png"
           alt="netflix logo"
@@ -63,15 +63,15 @@
               alt="search"
               style="height: 1.2rem"
               id="search-icon"
-              class="mx-3"
+              class="me-3"
             />
-            <div class="text-white">KIDS</div>
+            <div class="text-white me-3">KIDS</div>
             <img
               src="/assets/media/bell-solid.svg"
               alt="notification menu"
               style="height: 1.2rem"
               id="notification"
-              class="mx-3"
+              class="me-3"
             />
             <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
               <ul class="navbar-nav">
@@ -116,7 +116,7 @@
       data-bs-theme="dark"
     >
       <div class="mx-4 d-flex align-items-center">
-        <h1 class="text-white">TV Shows</h1>
+        <h1 class="text-white pb-3">TV Shows</h1>
         <select class="mx-4" style="height: 2.2rem">
           <option selected>Genres</option>
           <option>Action</option>
@@ -132,12 +132,13 @@
           src="/assets/media/bars-solid.svg"
           alt="fist-menu"
           id="menu-bars"
-          class="mx-3"
+          class="me-3"
         />
         <img
           src="/assets/media/ellipsis-solid.svg"
           alt="second-menu"
           id="menu-dots"
+          class="me-3"
         />
       </div>
     </div>
@@ -145,10 +146,10 @@
     <!--main-->
     <main class="bg-dark text-white">
       <!--trending now-->
-      <div class="mx-3">
+      <div class="mx-3 mt-4">
         <h3>Trending now</h3>
-        <div class="container my-5">
-          <div class="row gx-4 gy-3">
+        <div class="">
+          <div class="row gx-3 gy-3">
             <div class="col-6 col-sm-4 col-lg-2">
               <img
                 src="/assets/media/media0.webp"
@@ -191,80 +192,79 @@
                 class="img-fluid"
               />
             </div>
-            <div class="col-6 col-sm-4 col-lg-2">
+            <!-- <div class="col-6 col-sm-4 col-lg-2">
               <img
                 src="/assets/media/media6.jpg"
                 alt="movies"
                 class="img-fluid"
               />
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
 
       <!--watch it again-->
-      <div class="mx-3">
+
+      <div class="mx-3 mt-5">
         <h3>Watch It Again</h3>
-        <div class="container my-5">
-          <div class="row gx-4 gy-3">
-            <div class="col-6 col-sm-4 col-lg-2">
-              <img
-                src="/assets/media/media7.webp"
-                alt="movies"
-                class="img-fluid"
-              />
-            </div>
-            <div class="col-6 col-sm-4 col-lg-2">
-              <img
-                src="/assets/media/media8.webp"
-                alt="movies"
-                class="img-fluid"
-              />
-            </div>
-            <div class="col-6 col-sm-4 col-lg-2">
-              <img
-                src="/assets/media/media9.jpg"
-                alt="movies"
-                class="img-fluid"
-              />
-            </div>
-            <div class="col-6 col-sm-4 col-lg-2">
-              <img
-                src="/assets/media/media10.jpg"
-                alt="movies"
-                class="img-fluid"
-              />
-            </div>
-            <div class="col-6 col-sm-4 col-lg-2">
-              <img
-                src="/assets/media/media11.jpg"
-                alt="movies"
-                class="img-fluid"
-              />
-            </div>
-            <div class="col-6 col-sm-4 col-lg-2">
-              <img
-                src="/assets/media/media12.jpg"
-                alt="movies"
-                class="img-fluid"
-              />
-            </div>
-            <div class="col-6 col-sm-4 col-lg-2">
+        <div class="row gx-3">
+          <div class="col-6 col-sm-4 col-lg-2">
+            <img
+              src="/assets/media/media7.webp"
+              alt="movies"
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-6 col-sm-4 col-lg-2">
+            <img
+              src="/assets/media/media8.webp"
+              alt="movies"
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-6 col-sm-4 col-lg-2">
+            <img
+              src="/assets/media/media9.jpg"
+              alt="movies"
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-6 col-sm-4 col-lg-2">
+            <img
+              src="/assets/media/media10.jpg"
+              alt="movies"
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-6 col-sm-4 col-lg-2">
+            <img
+              src="/assets/media/media11.jpg"
+              alt="movies"
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-6 col-sm-4 col-lg-2">
+            <img
+              src="/assets/media/media12.jpg"
+              alt="movies"
+              class="img-fluid"
+            />
+          </div>
+          <!-- <div class="col-6 col-sm-4 col-lg-2">
               <img
                 src="/assets/media/media13.jpg"
                 alt="movies"
                 class="img-fluid"
               />
-            </div>
-          </div>
+            </div> -->
         </div>
       </div>
 
       <!--New Releases-->
-      <div class="mx-4">
+      <div class="mx-3 mt-5">
         <h3>New Releases</h3>
-        <div class="container my-5">
-          <div class="row gx-4 gy-3">
+        <div class="">
+          <div class="row gx-3">
             <div class="col-6 col-sm-4 col-lg-2">
               <img
                 src="/assets/media/media14.webp"
@@ -307,17 +307,72 @@
                 class="img-fluid"
               />
             </div>
-            <div class="col-6 col-sm-4 col-lg-2">
+            <!-- <div class="col-6 col-sm-4 col-lg-2">
               <img
                 src="/assets/media/media20.jpg"
                 alt="movies"
                 class="img-fluid"
               />
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
     </main>
+
+    <!--footer-->
+    <footer>
+      <div class="container">
+        <div>
+          <img
+            src="/assets/media/square-facebook.svg"
+            alt="facebook logo"
+            id="facebook-logo"
+          />
+          <img
+            src="/assets/media/square-instagram.svg"
+            alt="facebook logo"
+            id="instagram-logo"
+          />
+          <img
+            src="/assets/media/square-twitter.svg"
+            alt="facebook logo"
+            id="twitter-logo"
+          />
+          <img
+            src="/assets/media/square-youtube.svg"
+            alt="facebook logo"
+            id="youtube-logo"
+          />
+        </div>
+        <div class="row footer-text fs-6 my-4">
+          <div class="col-12 col-md-6 col-lg-3">Audio and Subtitles</div>
+          <div class="col-12 col-md-6 col-lg-3">Audio Description</div>
+          <div class="col-12 col-md-6 col-lg-3">Help Center</div>
+          <div class="col-12 col-md-6 col-lg-3">Gift Cards</div>
+        </div>
+        <div class="row footer-text fs-6 my-4">
+          <div class="col-12 col-md-6 col-lg-3">Media Center</div>
+          <div class="col-12 col-md-6 col-lg-3">Investor Relations</div>
+          <div class="col-12 col-md-6 col-lg-3">Jobs</div>
+          <div class="col-12 col-md-6 col-lg-3">Terms of Use</div>
+        </div>
+        <div class="row footer-text fs-6 my-4">
+          <div class="col-12 col-md-6 col-lg-3">Privacy</div>
+          <div class="col-12 col-md-6 col-lg-3">Legal Notices</div>
+          <div class="col-12 col-md-6 col-lg-3">Cookie Preferences</div>
+          <div class="col-12 col-md-6 col-lg-3">Corporate Information</div>
+        </div>
+        <div class="row footer-text fs-6 my-4">
+          <div class="col-12 col-lg-3">Contact Us</div>
+        </div>
+        <button class="btn btn-dark btn-outline-secondary my-4">
+          Service Code
+        </button>
+        <div class="text-secondary">
+          &copy; 1997-2019 Netflix, Inc. &#123;i-0d00fcda2fdf9c0de&#125;
+        </div>
+      </div>
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"

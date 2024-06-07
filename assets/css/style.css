@@ -11,4 +11,24 @@
 
 main .img-fluid {
   cursor: pointer;
+}
+
+footer {
+  margin-top: 8rem;
+  margin-bottom: 30px;
+}
+footer #facebook-logo,
+footer #instagram-logo,
+footer #twitter-logo,
+footer #youtube-logo {
+  cursor: pointer;
+  height: 2rem;
+  margin-right: 1.5rem;
+}
+footer .footer-text {
+  color: #5A5A5A;
+  cursor: pointer;
+}
+footer .text-secondary {
+  font-size: 0.8rem;
 }/*# sourceMappingURL=style.css.map */

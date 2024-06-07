@@ -1,4 +1,3 @@
-
 .navbar {
 
     #search-icon,
@@ -19,4 +18,30 @@ main {
     .img-fluid {
             cursor: pointer;
         }
+}
+
+footer {
+
+    margin-top: 8rem;
+    margin-bottom: 30px;
+    
+
+    #facebook-logo,
+    #instagram-logo,
+    #twitter-logo,
+    #youtube-logo {
+        cursor: pointer;
+            height: 2rem;
+            margin-right: 1.5rem;
+    }
+
+    .footer-text{
+        color: #5A5A5A;
+        cursor: pointer;
+    }
+
+    .text-secondary {
+        font-size: 0.8rem;
+    }
+
 }
